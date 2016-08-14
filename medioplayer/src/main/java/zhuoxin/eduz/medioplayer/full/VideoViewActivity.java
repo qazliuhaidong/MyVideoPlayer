@@ -79,7 +79,7 @@ public class VideoViewActivity extends AppCompatActivity{
         Vitamio.isInitialized(this);
         // 控制(暂停,播放,快进等)
 //        videoView.setMediaController(new MediaController(this));
-        videoView.setMediaController(new MediaController(this));
+        videoView.setMediaController(new CustomMedioCotraller(this));
         videoView.setKeepScreenOn(true);
         videoView.requestFocus();
         // 资源准备监听处理

@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import butterknife.BindView;
 import io.vov.vitamio.Vitamio;
 import zhuoxin.eduz.medioplayer.full.VideoViewActivity;
 import zhuoxin.eduz.medioplayer.full.part.SimpVideoView;
@@ -18,6 +19,7 @@ import zhuoxin.eduz.medioplayer.full.part.SimpVideoView;
 public class PartPlayActivity extends AppCompatActivity{
 
     SimpVideoView simp;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
